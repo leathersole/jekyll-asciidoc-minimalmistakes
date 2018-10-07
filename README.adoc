@@ -1,0 +1,22 @@
+= Jekyll AsciiDoc on Minimal Mistakes theme
+:toc:
+
+== Description
+A sample template based on link:https://github.com/asciidoctor/jekyll-asciidoc-quickstart[jekyll-asciidoc-quickstart] and link:https://mmistakes.github.io/minimal-mistakes/[Minimal Mistakes] theme.
+
+== Known Issues
+* Some Front Matter like `jekyll-permalink` in AsciiDoc don't work.
+
+== Installation
+
+---
+bundle install
+bundle exec jekyll serve --incremental
+---
+
+== OpenShift
+
+---
+oc new-project YOUR_PROJECT
+oc new-app leathersole/jekyll-asciidoc-s2i~THIS_GIT_REPOSITORY
+---

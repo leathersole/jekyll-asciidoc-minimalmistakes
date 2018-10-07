@@ -1,0 +1,12 @@
+---
+permalink: /sample/
+---
+= Sample pages
+:page-layout: single
+:page-title: Configurations
+:page-description: Configurations
+
+:toc:
+
+- link:page1/[page1]
+- link:page2/[page2]

@@ -1,0 +1,10 @@
+*~
+/_site/
+/.bundle/
+/tmp/
+*.bundle
+Gemfile.lock
+.DS_Store
+.jekyll-metadata
+.sass-cache
+/utils/
