@@ -9,14 +9,14 @@ A sample template based on link:https://github.com/asciidoctor/jekyll-asciidoc-q
 
 == Installation
 
----
+----
 bundle install
 bundle exec jekyll serve --incremental
----
+----
 
 == OpenShift
 
----
+----
 oc new-project YOUR_PROJECT
 oc new-app leathersole/jekyll-asciidoc-s2i~THIS_GIT_REPOSITORY
----
+----
